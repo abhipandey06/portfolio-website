@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abhishek Pandey | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="about" href="about.html" />
+  <link rel="contact" href="contact.html" />
+  <link rel="projects" href="projects.html" />
+  <link rel="skills" href="skills.html" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#" class="brand">
+        <span class="brand__dot"></span>
+        <span class="brand__text">Abhishek Pandey</span>
+      </a>
+
+      <nav class="nav" aria-label="Main navigation">
+        <a class="nav__link" href="about.html">About</a>
+        <a class="nav__link" href="https://github.com/abhipandey06" target="_blank">Projects</a>
+        <a class="nav__link" href="skills.html">Skills</a>
+        <a class="nav__link" href="contact.html">Contact</a>
+      </nav>
+
+      <button class="menu-btn" type="button" aria-label="Open menu" id="menuBtn">
+        ☰
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile menu (simple) -->
+  <div class="mobile-menu" id="mobileMenu" hidden>
+    <a class="mobile-menu__link" href="about.html">About</a>
+    <a class="mobile-menu__link" href="https://github.com/abhipandey06" target="_blank">Projects</a>
+    <a class="mobile-menu__link" href="skills.html">Skills</a>
+    <a class="mobile-menu__link" href="contact.html">Contact</a>
+  </div>
+
+  <!-- Hero -->
+  <main>
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="kicker">Hi, I’m Abhishek Pandey</p>
+
+          <h1 class="title">
+            I build reliable <span class="accent">backend</span> systems.
+          </h1>
+
+          <p class="subtitle">
+            A B.Sc-IT graduate with a core competency in backend development using Python, Django, and MySQL. Eager to build scalable and efficient web applications.
+          </p>
+
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="https://github.com/abhipandey06" target="_blank">View Projects</a>
+            <a class="btn btn--ghost" href="contact.html">Contact Me</a>
+          </div>
+
+          <div class="hero__badges" aria-label="Highlights">
+            <span class="badge">Python</span>
+            <span class="badge">Django</span>
+            <span class="badge">REST API</span>
+            <span class="badge">MySQL</span>
+          </div>
+          </div>
+
+        <div class="hero__card" aria-label="Profile card">
+          <div class="profile">
+            <div class="avatar" role="img" aria-label="Profile avatar"></div>
+            <div>
+              <h2 class="profile__name">Abhishek Pandey</h2>
+              <p class="profile__role">Software Developer</p>
+            </div>
+
+          <div class="stats">
+            <div class="stat">
+              <div class="stat__value" data-counter="1">1</div>
+              <div class="stat__label">Projects</div>
+            </div>
+            <div class="stat">
+              <div class="stat__value" data-counter="5">5</div>
+              <div class="stat__label">Certifications</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 class="section__title">Certifications</h2>
+        <div class="cards">
+          <div class="card">
+            <h3 class="card__title">Python Development Internship</h3>
+            <p class="card__desc">A 1-month internship certificate from <strong>CODTECH IT SOLUTIONS</strong>.</p>
+          </div>
+          <div class="card">
+            <h3 class="card__title">Data Science & Analytics</h3>
+            <p class="card__desc">A 1-month internship certificate from <strong>Imarticus Learning</strong>.</p>
+          </div>
+          <div class="card">
+            <h3 class="card__title">Full-Stack Python & Django</h3>
+            <p class="card__desc">A 1-month training certificate from <strong>NextGen</strong> on development using AI Tools.</p>
+          </div>
+          <div class="card">
+            <h3 class="card__title">AI Skill Passport</h3>
+            <p class="card__desc">Certification from <strong>EY and Microsoft</strong>.</p>
+          </div>
+          <div class="card">
+            <h3 class="card__title">Generative AI Ethics</h3>
+            <p class="card__desc">Ethical Considerations for Generative AI certificate from <strong>IBM SkillBuild</strong>.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
